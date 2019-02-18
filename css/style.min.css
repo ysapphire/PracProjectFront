@@ -1,10 +1,15 @@
-.view,body,html{height:100%}@media (max-width:740px){.full-page-intro{height:1000px}}.carousel{height:50%}.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item{height:100%}@media (max-width:776px){.carousel{height:100%}}.navbar{background-color:rgba(0,0,0,.4)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
-html,
+.view,
 body,
-header,
-.view {
-  height: 100%;
-}
+html{
+  height:100%
+  }
+  @media (max-width:740px){
+    .full-page-intro{
+      height:1000px
+      }
+    }
+
+
 
 @media (max-width: 740px) {
   html,
@@ -22,25 +27,8 @@ header,
     height: 650px;
   }
 }
-
-.top-nav-collapse {
-  background-color: #3f51b5 !important;
-}
-
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
-
-@media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #3f51b5 !important;
-  }
-}
-
-
-
 .card {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(58, 69, 90, 0.6);
 }
 
 .md-form label {
